@@ -19,7 +19,5 @@
   "arch": ["amd64", "armv7", "aarch64", "armhf", "i386"],
   "ingress": false,
   "panel_icon": "mdi:rocket",
-  "homeassistant": "2025.0.0",
-  "options": {},
-  "schema": {}
+  "homeassistant": "2025.0.0"
 }
