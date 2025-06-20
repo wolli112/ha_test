@@ -6,6 +6,16 @@
   "url": "https://github.com/wolli112/ha_test",
   "startup": "services",
   "boot": "auto",
+  "options": {
+    "VA1": "default1",
+    "VA2": "default2",
+    "VA3": "default3"
+  },
+  "schema": {
+    "VA1": "str",
+    "VA2": "str",
+    "VA3": "str"
+    },
   "arch": ["amd64", "armv7", "aarch64", "armhf", "i386"],
   "ingress": false,
   "panel_icon": "mdi:rocket",
