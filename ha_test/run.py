@@ -10,10 +10,12 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
 with open('/data/options.json', 'r') as f:
     options = json.load(f)
 
-VA1 = options.get('VA1', 'fallback1')
-VA2 = options.get('VA2', 'fallback2')
-VA3 = options.get('VA3', 'fallback3')
+VA1 = options.get('VA1')
+VA2 = options.get('VA2')
+VA3 = options.get('VA3')
 
 while True:
-    logging.info(VA1,VA2,VA3)
+    logging.info(VA1)
+    logging.info(VA2)
+    logging.info(VA3)
     time.sleep(60)
