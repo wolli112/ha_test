@@ -1,8 +1,8 @@
 {
   "name": "HA Test AddOn",
-  "version": "1.3",
+  "version": "1.4",
   "slug": "mein_addon",
-  "description": "Ein HA Test Beispiel-Addon Version 1.3",
+  "description": "Ein HA Test Beispiel-Addon Version 1.4",
   "url": "https://github.com/wolli112/ha_test",
   "startup": "services",
   "boot": "auto",
